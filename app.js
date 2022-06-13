@@ -38,11 +38,11 @@ function start() {
         for (let j = 0; j < input2; j++) {
             console.log("Working");
             mInput1.innerHTML +=
-                `<input type="number" required min="0" max="999" id="m1-${i}-${j}" value="0">`;
+                `<input type="number" required min="0" max="999" id="m1-${i}-${j}" value="0" style="width:30px;">`;
             mInput2.innerHTML +=
-                `<input type="number" required min="0" max="999" id="m2-${i}-${j}" value="0">`;
+                `<input type="number" required min="0" max="999" id="m2-${i}-${j}" value="0" style="width:30px;">`;
             mResult.innerHTML +=
-                `<input type="number" disabled required min="0" max="9999999" id="mResult-${i}-${j}" value="0">`;
+                `<input type="number" disabled required min="0" max="9999999" id="mResult-${i}-${j}" value="0" style="width:30px;">`;
         }
 
         mInput1.innerHTML += `<br>`;
