@@ -1,2 +1,2 @@
 # nestedLoopJS
-3D Matrix Calculation using Nested Loop with Arrays
+3D Matrix Calculation (Addition) using Nested Loop with Arrays
