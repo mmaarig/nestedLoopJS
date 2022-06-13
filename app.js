@@ -2,7 +2,7 @@ let input1 = "", input2 = "";
 
 function start() {
 
-    let alert = document.querySelector("#alert")
+    let message = document.querySelector("#message")
     let mInput1 = document.querySelector("#mInput1")
     let mInput2 = document.querySelector("#mInput2")
     let mResult = document.querySelector("#mResult")
